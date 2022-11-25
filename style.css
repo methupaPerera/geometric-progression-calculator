@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Stylings */
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #311D3F;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #311D3F;
+    color: #e2cacadd;
+    font-size: 1.2rem;
+}
+
+input {
+    margin: 1rem;
+    color: #fff;
+    background-color: #E23E57;
+    text-align: center;
+    font-size: 1.3rem;
+    outline: 0;
+    border: 0;
+    border-radius: 1rem;
+    height: 2rem;
+}
+
+/* Styles of Wrapper div (Background) */
+
+.wrapper {
+    color: #f5ccd8;
+    background-color: #88304E;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0 0 5rem #fff;
+}
+
+/* Styles of Main Inputs Section */
+
+.terms {
+    display: block;
+}
+
+.terms input {
+    width: 6rem;
+}
+
+/* Styles of Other Inputs section */
+
+.otherInputs div {
+    display: block;
+    text-align: center;
+}
+
+/* Styles of answers section */
+
+.answers {
+    color: #f1c8e6;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #522546;
+    border-radius: 1.5rem;
+}
